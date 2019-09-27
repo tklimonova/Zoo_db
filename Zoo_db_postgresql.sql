@@ -22,6 +22,9 @@ VALUES('lion', 'm', 'mammals', 1), ('giraffe', 'f', 'mammals', 3), ('panda', 'm'
 ('flamingo', 'm', 'birds', 2), ('rhinocerose', 'm', 'mammals', 1), ('zebra', 'f', 'mammals', 3), ('tiger', 'm', 'mammals', 1),
 ('penguin', 'm', 'birds', 2);
 
+INSERT INTO employees(emp_name, emp_position, emp_salary)
+VALUES('Leyla Roos', 'Zoo keeper', 25000), ('Nadia Koko', 'Naturalist', 30000), ('Viktor Koko', 'Aquarist', 39000);
+
 CREATE TABLE events(
 	ev_id SERIAL PRIMARY KEY,
 	ev_name VARCHAR(225) NOT NULL,
